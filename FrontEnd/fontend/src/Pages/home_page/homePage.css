@@ -1,0 +1,20 @@
+.home-cover{
+    position: relative;
+    display: block;
+    padding-bottom: 24px;
+    height: 550px;
+}
+.bg-homePage{
+    width: 100%;
+    height: 320px;
+    border-radius: 50px;
+    position: absolute;
+}
+.wellcome-message{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: 20px;
+}

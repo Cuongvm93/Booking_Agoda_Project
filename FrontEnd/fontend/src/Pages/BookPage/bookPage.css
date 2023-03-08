@@ -1,0 +1,199 @@
+.book-page-header {
+    height: 60px;
+    box-shadow: 0px 7px 5px rgb(184, 184, 184);
+    margin-bottom: 20px;
+}
+
+.book-page-wrapper {
+    width: 1100px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* book room body */
+.book-room-body {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.book-menu-left li:hover {
+    border-right: 2px solid rgb(83, 146, 249);
+}
+
+.book-menu-left {
+    box-shadow: 7px 0 8px #e9ebee;
+    margin-top: 12px;
+}
+
+.book-in4-right {
+    
+    margin: 12px 0 20px 44px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+}
+.book-in4-hotel{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.book-in4-hotel button:hover{
+    color: white;
+    background-color: rgb(0, 162, 255);
+}
+.book-in4-hotel h4{
+    color: rgb(0, 162, 255);
+    font-size: 19px;
+}
+.book-in4-hotel button{
+    border: 1px solid rgb(83, 146, 249);
+    border-radius: 7px;
+    background: none;
+    color:rgb(83, 146, 249); ;
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.-in4-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(218, 218, 218);
+}
+.-in4-bottom h6{
+    font-size: 12px;
+    color: rgb(135, 135, 135);
+}
+.-in4-bottom span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.book-card-left{
+    width: 70%;
+    border-right: 1px solid rgb(218, 218, 218);
+}
+.book-menu-left li{
+    font-size: 18px;
+}
+.book-menu-left ul{
+    margin-top: 30px;
+}
+.book-property-card{
+    display: flex;
+    justify-content: space-between;
+}
+.book-card-right{
+    width: 30%;
+}
+.book-card-right li {
+    color: rgb(0, 102, 255);
+    font-size: 12px ;
+}
+.infor-customer{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0 20px 44px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+}
+.customer-header{
+    padding: 15px;
+}
+.customer-header p {
+    font-size: 16px;
+    font-weight: 700;
+}
+.khachchinh{
+    padding: 0 35px;
+}
+.infor-customer h6{
+    font-size: 12px;
+    color: #a1a1a1;
+}
+.tenkhachhang{
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.succhua{
+    padding: 15px 35px;
+}
+.emailkhachhang{
+    padding: 15px 0;
+}
+.infor--right{
+    margin-top: 45px;
+}
+.thongtin-thanhtoan{
+    margin: 12px 0 20px 44px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+}
+.thongtin-header{
+    padding: 20px;
+}
+.thongtin-header p{
+    font-size: 18px;
+    font-weight: 700;
+} 
+.in4-tongtien h5 {
+    margin-left: 40px;
+}
+.sophong-sotien {
+    display: flex;
+    justify-content: space-around;
+}
+.sophong-sotien p{
+    font-size: 14px;
+    color: #808080;
+}
+
+.xacnhan-thanhtoan-btn{
+    margin: 12px 0 20px 44px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+}
+.thanhtoan-btn{
+    padding: 12px 30px;
+    text-align: center;
+}
+.thanhtoan-btn button{
+    border: none;
+    padding: 7px 14px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(83, 146, 249);
+}
+.thanhtoan-btn button:hover{
+    background-color: rgb(158, 195, 255);
+}
+.phuongthuc-thanhtoan{
+    padding: 10px ;
+    margin-left: 30px;
+}

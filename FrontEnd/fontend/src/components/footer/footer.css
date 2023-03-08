@@ -1,0 +1,40 @@
+.footer ul li {
+    list-style: none;
+}
+.footer{
+    margin-top: 40px;
+}
+.footer-container{
+    background-color: rgb(233, 235, 238);
+    color: rgb(42, 42, 46);
+}
+.footer-content{
+    display: flex;
+    padding: 20px 150px 40px 150px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.footer-box{
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    color: rgb(42, 42, 46);
+}
+.footer ul,li,p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.coppyright{
+    padding-top: 48px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(42, 42, 46);
+    color: rgb(215, 215, 219);font-size: 15px;
+}
+.coppyright  img{
+    margin: 35px auto 50px;
+    width: 80px;
+}

@@ -1,0 +1,200 @@
+.card-item-container {
+    width: 100%;
+    
+}
+
+.card-item-container:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+     transition: all 0.3s ease;
+     background-color: rgb(236, 241, 241);
+}
+
+.card-item-content {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #d7d7db;
+    border-radius: 4px;
+}
+
+.card-gallery-wrapper {
+    position: relative;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 49px);
+    grid-template-rows: repeat(4, 63px);
+    grid-gap: 3px;
+    cursor: pointer;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery__item--3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery__item--4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery__item {
+    margin: 0;
+}
+
+.gallery__item--5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.card-title .contentHeader {
+    color: #000;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.card-title span {
+    font-size: 19px;
+    padding: 20px 5px;
+}
+
+.additional-wrapper {
+    flex: 1;
+    /* margin-left: 20px; */
+    border-left: 1px solid #d7d7db;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    cursor: pointer;
+}
+
+.poin-review {
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div-point-rate {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: flex;
+}
+
+.div-point-rate svg {
+    transform: none;
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    color: #2679ff;
+}
+.point-rate {
+    margin-left: 4px;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+    color: rgb(83, 146, 249);
+}
+.rattot{
+    flex-direction: column;
+    display: flex;
+    text-align: right;
+    margin: 10px 10px;
+}
+.rattot p:last-child{
+     font-size: 12px;
+     margin-top: 4px;
+     color: gray;
+}
+.giatrungbinh{
+    float: right;
+    padding-bottom: 12px;
+}
+.price-card-item{
+    margin-right: 20px;
+    color: #e12d2d;
+    font-weight: bold;
+    float: right;
+    font-size: 19px;
+}
+.additional-button span{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.additional-button button{
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: rgb(83, 146, 249);
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    transition: all 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.additional-button span{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.zoom-image{
+    z-index: 100;
+    max-width: 500px;
+    max-height: 480px;
+    position: absolute;
+    top:-80px;
+    left: 20px;
+    border-radius: 10px;
+    transition: all 1s ease-in;
+}
+.zoom-image img{
+    object-fit: cover;
+    width: 500px;
+    height: 290px;
+    border-radius: 10px;
+}

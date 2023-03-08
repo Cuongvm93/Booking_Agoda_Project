@@ -1,0 +1,78 @@
+.search-main-header {
+    top: 100px;
+    width: 940px;
+    position: relative;
+    height: 90px;
+    background-color: #ffff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.search-main-header .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+    border-bottom: 3px solid rgb(0, 166, 255);
+}
+
+.search-main-header .item p {
+    font-weight: 600;
+}
+
+.search-main-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1124px;
+    height: 355px;
+    background-color: #f8f7f9;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    top: 55px;
+    border-radius: 10px;
+}
+
+.search-main-pickroom {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.search-main-pick {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    height: 20%;
+    justify-content: space-between;
+}
+
+.search-main-body button {
+    top: 320px;
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(0, 166, 255);
+    font-size: 23px;
+    color: white;
+}

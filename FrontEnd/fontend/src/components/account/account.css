@@ -1,0 +1,25 @@
+.my--account{
+    padding:  15px;
+    font-weight: 700;
+    background-color: rgb(228, 228, 228);
+}
+
+.control-menu li{
+    font-size: 16px;
+}
+.control-menu li:hover{
+    color: rgb(73, 146, 255);
+}
+.account--btn{
+    border: 1px solid rgb(73, 146, 255);
+    background: none;
+    color: rgb(73, 146, 255);
+    padding: 15px 60px;
+    border-radius: 5px;
+    margin: 15px;
+    font-weight: 600
+}
+.account--btn:hover{
+    color: white;
+    background-color: rgb(104, 165, 255);
+}

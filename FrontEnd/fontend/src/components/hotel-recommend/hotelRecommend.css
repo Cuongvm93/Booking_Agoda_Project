@@ -1,0 +1,80 @@
+.hotel-recommend-wrapper{
+    text-align: center;
+    margin: 50px 140px 10px 150px;
+}
+.recommend-title{
+    margin-bottom: 24px;
+}
+.recommend-title h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+.hotelRecommend-city{
+    display: inline-flex;
+    justify-content: center;
+    border-bottom: 2px solid gainsboro;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.city-guest{
+    margin: 10px 15px;
+    cursor: pointer;
+}
+.hotelRecommend-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-hotel-item{
+    padding: 10px 8px;
+    width: min-content;
+    text-align: left;
+}
+.card-image{
+    max-width: 265px;
+    max-height: 200px;
+}
+.card-image img{
+    width: 265px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-location{
+    font-size: 13px;
+    color: rgb(0, 132, 255);
+}
+.card-rating button{
+    border: none;
+    background-color: rgb(112, 164, 255);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.card-price{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: rgb(225, 45, 45);
+}
+.hotelRecommend-see-more{
+    margin: 30px;
+    
+}
+.see-more-btn{
+    padding: 7px 15px;
+    border:none;
+    background-color: rgb(100, 146, 255);
+    color: white;
+    border-radius: 6px;
+    width: max-content;
+}
+.see-more-btn:hover{
+    background-color: rgb(156, 186, 255);
+}
